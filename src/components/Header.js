@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <div className="bg-[#343A40] w-full flex justify-between px-10 py-5 text-center">
+    <div className="bg-[#343A40] w-full flex justify-between px-10 py-5 text-center mb-12">
         <h1 className="text-white text-xl" >PROSHOP</h1>
 
         <div className="flex">
