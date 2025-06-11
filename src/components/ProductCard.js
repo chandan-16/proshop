@@ -8,11 +8,11 @@ const ProductCard = ({product}) => {
 
       <div className="w-50 h-46 text-left pl-12 pt-5 w-70">
         <a className="text-md text-left text-gray-500 text-gray-500 cursor-pointer hover:underline hover:text-blue-500">{product.name}</a>
-        <p className="text-md text-left text-gray-500 text-md pt-2"><i class="bi bi-star-fill"></i> {product.rating} Reviews</p>
+        <p className="text-md text-left text-md pt-2"><i className="bi bi-star-fill ratingStar"></i> {product.rating} Reviews</p>
         <p className="text-2xl text-lef text-black-700 pt-2">₹{product.price}</p>
         </div>
     </div>
   )
 }
 
-export default ProductCard
+export default ProductCard;

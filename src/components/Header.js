@@ -7,6 +7,11 @@ const Header = () => {
             <p className="text-white text-xm"><i className="bi bi-cart-fill pr-1"></i>CART <span className="pl-0">(0)</span> </p>
             <span className="text-white pl-7">JOHN <i className="bi bi-caret-down-fill"></i></span>
         </div>
+
+        <ul className="flex justify-between text-white px-2">
+          <li className="pr-4">Home</li>
+          <li>About</li>
+        </ul>
     </div>
   )
 }
